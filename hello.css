@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+.box{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    /* background-color: green; */
+}
+.box img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+img:nth-child(2){
+    z-index: 500;
+}
+img:nth-child(1){
+    z-index: 1000;
+}
