@@ -69,7 +69,7 @@ function lodingAnimation() {
 
   setTimeout(function () {
     clearInterval(int);
-  }, 4000)
+  }, 5000)
 
   tl.from(".content h1", {
     y: 120,
